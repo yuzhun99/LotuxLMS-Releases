@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>LotuxLMS</title>
+        <description>Most recent updates to LotuxLMS</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.1</title>
+            <sparkle:releaseNotesLink>
+                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.1
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 16 Feb 2026 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.1/LotuxLMS-macOS-1.0.1.zip"
+                       sparkle:version="1.0.1"
+                       sparkle:os="macos"
+                       sparkle:edSignature="79qgSJdcvzwcsArLg4kSpsCIz1rsPr3EYchfDBNRfliwEN2jPq6xmvtiCSHKg1A1mbmX2hZo2YJnWLEmYbJiBg=="
+                       length="93230830" />
+        </item>
+        <item>
+            <title>Version 1.0.1</title>
+            <sparkle:releaseNotesLink>
+                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.1
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 16 Feb 2026 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.1/LotuxLMS-Windows-1.0.1.zip"
+                       sparkle:version="1.0.1"
+                       sparkle:os="windows"
+                       sparkle:edSignature="RIpU7kzIP7zi7OQeCTWS91UxXW/D3pyxDh7ibC6UYC8TdjnEOJiTHnwQ/Cxs5G/rlieNPMb7jFuBFqdaGWZzAw=="
+                       length="25275668" />
+        </item>
+    </channel>
+</rss>
