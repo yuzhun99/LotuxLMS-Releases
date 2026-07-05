@@ -13,8 +13,8 @@
             <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.1/LotuxLMS-macOS-1.0.1.zip"
                        sparkle:version="1.0.1"
                        sparkle:os="macos"
-                       sparkle:edSignature="79qgSJdcvzwcsArLg4kSpsCIz1rsPr3EYchfDBNRfliwEN2jPq6xmvtiCSHKg1A1mbmX2hZo2YJnWLEmYbJiBg=="
-                       length="93230830" />
+                       sparkle:edSignature="YJidyZt5JfRkEvmO+VsUG8yKYRuvuINuc7XQjzr6wI7KyCfX3Fsx6xp+tqngmXbfmrxO/Nhp4jL7YJP7DlOOAg=="
+                       length="94286265" />
         </item>
         <item>
             <title>Version 1.0.1</title>
@@ -25,8 +25,8 @@
             <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.1/LotuxLMS-Windows-1.0.1.zip"
                        sparkle:version="1.0.1"
                        sparkle:os="windows"
-                       sparkle:edSignature="RIpU7kzIP7zi7OQeCTWS91UxXW/D3pyxDh7ibC6UYC8TdjnEOJiTHnwQ/Cxs5G/rlieNPMb7jFuBFqdaGWZzAw=="
-                       length="25275668" />
+                       sparkle:edSignature="OA2V0X3herA5d0Qrm2MfAZl/RfZjb4Wz7q0jWdTybYDnZHbET7nbqkLokU0g49cs8s0QDbOYK0DUUlhdiYYDDA=="
+                       length="25265827" />
         </item>
     </channel>
 </rss>
