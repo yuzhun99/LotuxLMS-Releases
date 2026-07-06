@@ -5,28 +5,28 @@
         <description>Most recent updates to LotuxLMS</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.1</title>
+            <title>Version 1.0.2</title>
             <sparkle:releaseNotesLink>
-                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.1
+                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.2
             </sparkle:releaseNotesLink>
-            <pubDate>Sun, 16 Feb 2026 12:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.1/LotuxLMS-macOS-1.0.1.zip"
-                       sparkle:version="1.0.1"
+            <pubDate>Mon, 17 Feb 2026 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.2/LotuxLMS-macOS-1.0.2.zip"
+                       sparkle:version="1.0.2"
                        sparkle:os="macos"
-                       sparkle:edSignature="B0NoRy7Cjp6dDmTWQHB1DL8vjoDoXLpRWf20eEhZ3fC2H7Uo86edCoSIDjT+P24DwwjelPKeo+Bj2aFOiVBkCw=="
-                       length="94286273" />
+                       sparkle:edSignature="vhpGyeslUsD8Cc30B2htwmkdh9ZtrOr2bElt3uksodwb9sipZfuRweZ9c+1d2z7R1KfSi+o8DmfCfxfhP6wNDA=="
+                       length="94283691" />
         </item>
         <item>
-            <title>Version 1.0.1</title>
+            <title>Version 1.0.2</title>
             <sparkle:releaseNotesLink>
-                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.1
+                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.2
             </sparkle:releaseNotesLink>
-            <pubDate>Sun, 16 Feb 2026 12:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.1/LotuxLMS-Windows-1.0.1.zip"
-                       sparkle:version="1.0.1"
+            <pubDate>Mon, 17 Feb 2026 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.2/LotuxLMS-Windows-1.0.2.zip"
+                       sparkle:version="1.0.2"
                        sparkle:os="windows"
-                       sparkle:edSignature="OA2V0X3herA5d0Qrm2MfAZl/RfZjb4Wz7q0jWdTybYDnZHbET7nbqkLokU0g49cs8s0QDbOYK0DUUlhdiYYDDA=="
-                       length="25265827" />
+                       sparkle:edSignature="b9rMtZbibsdincQ+lewuRGEg0ZQOkmMJap24HCJVEfKNwQ1UX1e90DpRUehBIehTgidhoW71QxO8naStTPi9BA=="
+                       length="25265442" />
         </item>
     </channel>
 </rss>
