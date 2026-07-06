@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LotuxLMS - Nền Tảng Học Tập Hiện Đại</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #8b5cf6;
+            --primary-dark: #7c3aed;
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --glass-bg: rgba(30, 41, 59, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(139, 92, 246, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(56, 189, 248, 0.15), transparent 25%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header {
+            width: 100%;
+            padding: 2rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 15px rgba(139, 92, 246, 0.5));
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .brand {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #a78bfa, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-section {
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            animation: fadeIn 1s ease-out;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        p.subtitle {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto 3rem auto;
+            line-height: 1.6;
+        }
+
+        .download-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 3rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            margin: 0 auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .download-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 30px 60px -12px rgba(139, 92, 246, 0.3);
+        }
+
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            background: linear-gradient(135deg, var(--primary), #3b82f6);
+            color: white;
+            text-decoration: none;
+            padding: 1.25rem 2.5rem;
+            border-radius: 100px;
+            font-size: 1.25rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            box-shadow: 0 10px 20px -10px var(--primary);
+        }
+
+        .btn-download:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 25px -10px var(--primary);
+        }
+
+        .btn-download i {
+            font-size: 1.5rem;
+        }
+
+        .other-versions {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        .other-versions a {
+            color: #38bdf8;
+            text-decoration: none;
+            transition: color 0.2s;
+            margin: 0 0.5rem;
+        }
+
+        .other-versions a:hover {
+            color: #7dd3fc;
+            text-decoration: underline;
+        }
+
+        .os-badge {
+            display: inline-block;
+            background: rgba(139, 92, 246, 0.2);
+            color: #c4b5fd;
+            padding: 0.25rem 0.75rem;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .loader {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .download-card { padding: 2rem; }
+            .btn-download { padding: 1rem 2rem; font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="assets/logo.png" alt="LotuxLMS Logo" class="logo">
+        <div class="brand">LotuxLMS</div>
+    </div>
+
+    <div class="container">
+        <div class="hero-section">
+            <h1>Nền Tảng Học Tập<br>Hiện Đại Của Bạn</h1>
+            <p class="subtitle">Trải nghiệm học tập mượt mà, quản lý khóa học thông minh với giao diện tinh tế trên mọi thiết bị máy tính của bạn.</p>
+
+            <div class="download-card">
+                <div class="os-badge" id="os-detected">Đang kiểm tra hệ điều hành...</div>
+                
+                <a id="main-download-btn" href="#" class="btn-download">
+                    <span class="loader" id="download-loader"></span>
+                    <span id="btn-text">Đang tải link...</span>
+                </a>
+
+                <div class="other-versions">
+                    Tải phiên bản khác: 
+                    <a href="#" id="link-windows"><i class="fab fa-windows"></i> Windows</a> | 
+                    <a href="#" id="link-macos"><i class="fab fa-apple"></i> macOS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const REPO = 'yuzhun99/LotuxLMS-Releases';
+        const API_URL = `https://api.github.com/repos/${REPO}/releases/latest`;
+
+        // Default direct links in case JS fails or API limits are hit
+        let macUrl = `https://github.com/${REPO}/releases/latest/download/LotuxLMS-macOS-1.0.2.zip`;
+        let winUrl = `https://github.com/${REPO}/releases/latest/download/LotuxLMS-Windows-1.0.2.zip`;
+
+        function detectOS() {
+            const userAgent = window.navigator.userAgent.toLowerCase();
+            if (userAgent.indexOf("mac") !== -1) return "MacOS";
+            if (userAgent.indexOf("win") !== -1) return "Windows";
+            return "Unknown";
+        }
+
+        async function fetchLatestRelease() {
+            try {
+                const response = await fetch(API_URL);
+                if (response.ok) {
+                    const data = await response.json();
+                    
+                    data.assets.forEach(asset => {
+                        const name = asset.name.toLowerCase();
+                        if (name.includes('macos') && name.endsWith('.zip')) {
+                            macUrl = asset.browser_download_url;
+                        } else if (name.includes('windows') && name.endsWith('.zip')) {
+                            winUrl = asset.browser_download_url;
+                        }
+                    });
+                }
+            } catch (error) {
+                console.error("Không thể lấy phiên bản mới nhất từ Github", error);
+            }
+            updateUI();
+        }
+
+        function updateUI() {
+            const os = detectOS();
+            const btn = document.getElementById('main-download-btn');
+            const btnText = document.getElementById('btn-text');
+            const loader = document.getElementById('download-loader');
+            const osBadge = document.getElementById('os-detected');
+
+            const linkMac = document.getElementById('link-macos');
+            const linkWin = document.getElementById('link-windows');
+
+            linkMac.href = macUrl;
+            linkWin.href = winUrl;
+
+            loader.style.display = 'none';
+
+            if (os === 'MacOS') {
+                osBadge.innerHTML = '<i class="fab fa-apple"></i> Dành cho macOS của bạn';
+                btnText.innerHTML = '<i class="fab fa-apple"></i> Tải về LotuxLMS cho Mac';
+                btn.href = macUrl;
+            } else if (os === 'Windows') {
+                osBadge.innerHTML = '<i class="fab fa-windows"></i> Dành cho Windows của bạn';
+                btnText.innerHTML = '<i class="fab fa-windows"></i> Tải về LotuxLMS cho Windows';
+                btn.href = winUrl;
+            } else {
+                osBadge.innerText = 'Tải về LotuxLMS';
+                btnText.innerHTML = '<i class="fas fa-download"></i> Tải về Phiên bản mới nhất';
+                btn.href = winUrl; 
+            }
+        }
+
+        // Initialize
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchLatestRelease();
+        });
+    </script>
+</body>
+</html>
