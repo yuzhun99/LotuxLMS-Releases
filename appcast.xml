@@ -14,8 +14,8 @@
                        sparkle:version="3"
                        sparkle:shortVersionString="1.0.2"
                        sparkle:os="macos"
-                       sparkle:edSignature="vhpGyeslUsD8Cc30B2htwmkdh9ZtrOr2bElt3uksodwb9sipZfuRweZ9c+1d2z7R1KfSi+o8DmfCfxfhP6wNDA=="
-                       length="94283691" />
+                       sparkle:edSignature="gtmqrPB/5rWRroFed8JggVD1FjkL/g88P/LFgAP3XWArbBtrx8j+jYOmu3r+0hy+OTyE8hpi3iDKACWLHs2UAA=="
+                       length="94283746" />
         </item>
         <item>
             <title>Version 1.0.2</title>
@@ -27,8 +27,8 @@
                        sparkle:version="3"
                        sparkle:shortVersionString="1.0.2"
                        sparkle:os="windows"
-                       sparkle:edSignature="b9rMtZbibsdincQ+lewuRGEg0ZQOkmMJap24HCJVEfKNwQ1UX1e90DpRUehBIehTgidhoW71QxO8naStTPi9BA=="
-                       length="25265442" />
+                       sparkle:edSignature="EFl2LfWVqR8ijiX/h3AlHvxqDYfHk6gZ/baxOgB5XdXKxOK58s5pNH6By7CZHPXwoXgwjq0Hzb9oUyYlJNvYBg=="
+                       length="25265443" />
         </item>
     </channel>
 </rss>
