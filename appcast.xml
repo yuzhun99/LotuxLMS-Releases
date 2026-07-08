@@ -10,7 +10,7 @@
                 https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.3
             </sparkle:releaseNotesLink>
             <pubDate>Wed, 08 Jul 2026 12:00:00 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/yuzhun99/LotuxLMS-Releases/main/LotuxLMS-macOS-1.0.3.zip"
+            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.3/LotuxLMS-macOS-1.0.3.zip"
                        sparkle:version="4"
                        sparkle:shortVersionString="1.0.3"
                        sparkle:os="macos"
