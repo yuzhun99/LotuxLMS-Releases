@@ -5,6 +5,19 @@
         <description>Most recent updates to LotuxLMS</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.4</title>
+            <sparkle:releaseNotesLink>
+                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.4
+            </sparkle:releaseNotesLink>
+            <pubDate>Mon, 13 Jul 2026 16:50:00 +0000</pubDate>
+            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.4/LotuxLMS-macOS-1.0.4.zip"
+                       sparkle:version="5"
+                       sparkle:shortVersionString="1.0.4"
+                       sparkle:os="macos"
+                       sparkle:edSignature="Bp1zkyNdC9vyVZvD8sjUT1uzfTqvXK+tIgfMzFoKujCJUr95kGy63XJHebLfBJ3YDkMF4a5YxsOit6zW+N+xAg=="
+                       length="33463054" />
+        </item>
+        <item>
             <title>Version 1.0.3</title>
             <sparkle:releaseNotesLink>
                 https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.3
