@@ -5,56 +5,30 @@
         <description>Most recent updates to LotuxLMS</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.4 (Windows)</title>
+            <title>Version 1.0.5</title>
             <sparkle:releaseNotesLink>
-                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.4
+                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.5
             </sparkle:releaseNotesLink>
-            <pubDate>Mon, 13 Jul 2026 16:50:00 +0000</pubDate>
-            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.4/LotuxLMS-Windows-1.0.4.zip"
-                       sparkle:version="5"
-                       sparkle:shortVersionString="1.0.4"
-                       sparkle:os="windows"
-                       sparkle:edSignature="8uAeww+/qnsU/fxIizVRTGAVrhfxvkp8uA7GB/3hxfbP8/8FzmnLKIrWpXXnqiF8g2WJHphgG8Uq72LtsFPiAQ=="
-                       length="40091868" />
-        </item>
-        <item>
-            <title>Version 1.0.4</title>
-            <sparkle:releaseNotesLink>
-                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.4
-            </sparkle:releaseNotesLink>
-            <pubDate>Mon, 13 Jul 2026 16:50:00 +0000</pubDate>
-            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.4/LotuxLMS-macOS-1.0.4.zip"
-                       sparkle:version="5"
-                       sparkle:shortVersionString="1.0.4"
-                       sparkle:os="macos"
-                       sparkle:edSignature="fAqs3P44qrqDU2kaJ8qDYlgH4TxCBNxeJnrzQMrBluxRknr4sUnzDc24cugVkaxQAzR3qlWhz5JRpeQl8CYqBw=="
-                       length="57870290" />
-        </item>
-        <item>
-            <title>Version 1.0.3</title>
-            <sparkle:releaseNotesLink>
-                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.3
-            </sparkle:releaseNotesLink>
-            <pubDate>Wed, 08 Jul 2026 12:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.3/LotuxLMS-macOS-1.0.3.zip"
-                       sparkle:version="4"
-                       sparkle:shortVersionString="1.0.3"
-                       sparkle:os="macos"
-                       sparkle:edSignature="Cnx2n8Vz/FAXo4eA/HabEVq/QG8SOElZrUQT+pUEj5789ps9C/KtcpxX4q8ZU0MV2tZIOtoKDJi3JUE9JZ/zDg=="
-                       length="33416739" />
-        </item>
-        <item>
-            <title>Version 1.0.2</title>
-            <sparkle:releaseNotesLink>
-                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.2
-            </sparkle:releaseNotesLink>
-            <pubDate>Mon, 17 Feb 2026 12:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.2/LotuxLMS-macOS-1.0.2.zip"
-                       sparkle:version="3"
-                       sparkle:shortVersionString="1.0.2"
+            <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.5/LotuxLMS-macOS-1.0.5.zip"
+                       sparkle:version="6"
+                       sparkle:shortVersionString="1.0.5"
                        sparkle:os="macos"
                        sparkle:edSignature="gtmqrPB/5rWRroFed8JggVD1FjkL/g88P/LFgAP3XWArbBtrx8j+jYOmu3r+0hy+OTyE8hpi3iDKACWLHs2UAA=="
                        length="94283746" />
+        </item>
+        <item>
+            <title>Version 1.0.5</title>
+            <sparkle:releaseNotesLink>
+                https://github.com/yuzhun99/LotuxLMS-Releases/releases/tag/v1.0.5
+            </sparkle:releaseNotesLink>
+            <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.5/LotuxLMS-Windows-1.0.5.zip"
+                       sparkle:version="6"
+                       sparkle:shortVersionString="1.0.5"
+                       sparkle:os="windows"
+                       sparkle:edSignature="EFl2LfWVqR8ijiX/h3AlHvxqDYfHk6gZ/baxOgB5XdXKxOK58s5pNH6By7CZHPXwoXgwjq0Hzb9oUyYlJNvYBg=="
+                       length="25265443" />
         </item>
     </channel>
 </rss>
