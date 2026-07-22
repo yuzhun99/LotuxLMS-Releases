@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
-  "download_url": "https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.5/LotuxLMS-Linux-1.0.5.tar.gz",
-  "release_notes": "Sửa lỗi và nâng cấp tính năng Lịch học, Quản lý Lớp/Khoá học."
+  "version": "1.0.6",
+  "download_url": "https://github.com/yuzhun99/LotuxLMS-Releases/releases/download/v1.0.6/LotuxLMS-Linux-1.0.6.tar.gz",
+  "release_notes": "Gỡ bỏ yêu cầu duyệt bằng Telegram Bot khi AI tạo bài tập và bài thi."
 }
